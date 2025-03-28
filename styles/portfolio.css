@@ -11,7 +11,6 @@
  
   .text-primary{
     color: #FD6E0A;
-    size: ;
 }
 .dark-2{
     color: #474747;
@@ -33,7 +32,6 @@
 .section-description{
     font-size: 18px;
     color: #757575;
-    margin: 0 140px;
 }
 .text-center{
     text-align:center;
@@ -149,3 +147,34 @@ main section{
 }
 
 
+/* Resume section style */
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+.resume-column-title{
+    font-weight: bold;
+    font-size: 30px;
+}
+.experience-title{
+    font-weight: bold;
+    font-size: 24px;
+}
+.experience-sub-title{
+    color:#757575;
+    font-size: 20px;
+    font-weight: 600px;
+    margin-bottom: 20px;
+
+}
+.experience-description{
+    color: #757575;
+    font-size: 16px;
+}
+
+.resume hr{
+    margin: 30px 0px;
+}
+.resume-download-cv{
+    margin-top: 50px;
+}
